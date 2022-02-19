@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(242, 255, 251);
+}
+.header h1 {
+  font-weight: 100;
+}
+.platform {
+  display: flex;
+  flex-wrap: wrap;
+}
+.food {
+  flex-basis: 400px;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.intro-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid gold;
+}
+.price {
+  color: rgb(1, 59, 93);
+  font-size: 14px;
+}
+.category {
+  font-size: 11px;
+  margin-left: auto;
+  color: rgb(155, 155, 155);
+  font-weight: bold;
+}
+img {
+  border-radius: 5px;
+  border: 2px solid rgb(161, 138, 4);
+}
+button {
+  background: transparent;
+  color: goldenrod;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+@media (max-width: 800px) {
+}

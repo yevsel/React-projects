@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(236, 250, 249);
+}
+
+.color-box {
+  display: flex;
+  width: 95%;
+  /* background-color: brown; */
+  margin: auto;
+  flex-wrap: wrap;
+}
+.box {
+  flex-basis: 200px;
+  height: 200px;
+  flex-grow: 1;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+.color-name {
+  margin: 5px;
+  border: 1px solid #333;
+  text-align: center;
+  border-radius: 3px;
+  background: white;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(133, 133, 133);
+  letter-spacing: 1px;
+}

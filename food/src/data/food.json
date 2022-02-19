@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Vegetable Soup",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 3.99,
+    "category": "Soups",
+    "amount": 0
+  },
+  {
+    "id": 2,
+    "name": "Bread and Butter",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 4.0,
+    "category": "Wraps",
+    "amount": 0
+  },
+  {
+    "id": 3,
+    "name": "Fried Rice and Salad",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 1.09,
+    "category": "Wraps",
+    "amount": 0
+  },
+  {
+    "id": 4,
+    "name": "Wine and Brisket",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 8.99,
+    "category": "Entrees",
+    "amount": 0
+  },
+  {
+    "id": 5,
+    "name": "Oyster Fries",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 3.99,
+    "category": "Appetizers",
+    "amount": 0
+  },
+  {
+    "id": 6,
+    "name": "French Toast with Spinach",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 3.99,
+    "category": "Wraps",
+    "amount": 0
+  },
+  {
+    "id": 7,
+    "name": "Goat Soup",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 3.99,
+    "category": "Soups",
+    "amount": 0
+  },
+  {
+    "id": 8,
+    "name": "Chicken Masala",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 3.99,
+    "category": "Entrees",
+    "amount": 0
+  },
+  {
+    "id": 9,
+    "name": "Fufu and Groundnut Soup",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 20.09,
+    "category": "Soups",
+    "amount": 0
+  },
+  {
+    "id": 10,
+    "name": "Oil rice with French fries",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 5.0,
+    "category": "Appetizers",
+    "amount": 0
+  },
+  {
+    "id": 11,
+    "name": "Yogurt Drink",
+    "description": "Free range chicken with no antibiotics, potatoes, onions, carrots,tomatoes,celery and parsley.",
+    "price": 2.99,
+    "category": "Desserts",
+    "amount": 0
+  }
+]

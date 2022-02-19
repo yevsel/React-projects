@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: rgb(216, 246, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grocery {
+  width: 400px;
+  min-height: 200px;
+  background-color: white;
+  border-radius: 5px;
+}
+.grocery h4 {
+  color: rgb(80, 80, 80);
+}
+input {
+  /* width: 80%; */
+  border: 0px solid white;
+  background-color: rgb(231, 246, 246);
+  border-radius: 3px 0px 0px 3px;
+  padding: 5px;
+  flex: 2;
+  outline:none;
+}
+
+.submit {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  align-self: stretch;
+  color: rgb(233, 233, 233);
+  letter-spacing: 1px;
+  background-color: rgb(13, 163, 8);
+  flex: 0.5;
+  outline: none;
+  margin-left: 1.5px;
+
+}
+.submit:hover {
+  background-color: rgb(13, 189, 7);
+}
+.submit:active{
+  outline: none;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  /* background-color: teal; */
+}
+.trash {
+  color: rgb(197, 8, 8);
+  cursor: pointer;
+}
+.trash:hover {
+  color: red;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #ccc;
+  transition: 300ms background-color ease;
+}
+.item:nth-child(even) {
+  background-color: rgb(246, 255, 226);
+}
+.item:hover {
+  background-color: rgb(255, 240, 228);
+}
+
+.clear {
+  display: block;
+  width: 170px;
+  border: none;
+  margin: auto;
+  background-color: white;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.edit {
+  color: green;
+  margin-right: 10px;
+  cursor: pointer;
+}

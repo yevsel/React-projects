@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 200px;
+}
+section > div:nth-child(odd) {
+  background-color: #ccc;
+  margin: 5px;
+  padding: 5px;
+}

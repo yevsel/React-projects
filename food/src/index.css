@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #ffffff;
+}
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(117, 200, 233);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.logo a {
+  color: #333;
+  font-size: 20px;
+}
+.cart {
+  position: relative;
+}
+.cart span {
+  position: absolute;
+  left: 20px;
+}
+.cart-icon {
+  font-size: 30px;
+  color: #414141;
+}
+.home {
+  margin-top: 30px;
+}
+.sidebar {
+  position: fixed;
+  box-shadow: 0px 10px 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 30%;
+  height: 100vh;
+  /* background-color: rgb(185, 185, 185); */
+}
+button {
+  border-radius: 0px;
+}
+.sidebar button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.sidebar button:hover {
+  padding-left: 5px;
+  background-color: rgb(185, 185, 185);
+}
+.sidebar button:focus {
+  background-color: rgb(185, 185, 185);
+  border: none;
+}
+.foodcontainer {
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  min-height: 50vh;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.eachfood {
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  background-color: #fbfbfb;
+}
+
+.eachfood h6 {
+  font-size: 10px;
+  color: #333;
+}
+.cta button {
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.cta .decrease {
+  border-radius: 5px 0px 0px 5px;
+  background-color: #ccc;
+}
+.cta .increase {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #ccc;
+}
+.cta .addToCart {
+  border: 0px;
+  border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: rgb(237, 251, 253);
+}
+main {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: #f4f4f4; */
+  padding: 0px;
+}
+img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header p {
+  font-weight: bold;
+}
+.header .price {
+  border-radius: 0px 12px 0px 12px;
+  color: rgb(58, 143, 172);
+  background-color: #c9dff1;
+}
+.interest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-body {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(129, 129, 129);
+  background-color: white;
+}
+@media (max-width: 700px) {
+  main {
+    width: 90%;
+  }
+}

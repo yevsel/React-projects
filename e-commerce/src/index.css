@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #e9e1eb;
+}
+
+.header {
+  background-color: rgba(9, 53, 66, 0.808);
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bag {
+  position: relative;
+}
+
+.shopping-bag {
+  font-size: 30px;
+  color: rgb(106, 221, 236);
+}
+
+.bag span {
+  position: absolute;
+  left: 19px;
+  font-size: 16px;
+}
+
+.item {
+  border: 1px solid rgb(179, 178, 178);
+  border-radius: 5px;
+  display: flex;
+  background-color: white;
+}
+.cta {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.increase,
+.decrease {
+  color: #0275d8;
+  cursor: pointer;
+  transition: 300ms transform ease;
+}
+.increase:hover,
+.decrease:hover {
+  transform: scale(1.7);
+}
+.total-container {
+  display: flex;
+  justify-content: space-between;
+}
+.total {
+  color: #333;
+}
+.price {
+  font-weight: bold;
+  color: #0275d8;
+}

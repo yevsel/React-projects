@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: peru;
+}
+.App {
+  width: 50%;
+  min-height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  /* padding: 10px; */
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.header {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgb(100, 52, 4);
+}
+.balance h4 {
+  font-family: "Roboto", sans-serif;
+}
+.income-expense {
+  display: flex;
+  /* justify-content: space-around; */
+  background-color: rgb(243, 243, 243);
+}
+.income-expense h3 {
+  font-weight: 400;
+  font-size: 17px;
+  background-color: rgba(204, 212, 246, 0.863);
+  padding: 10px;
+}
+.income,
+.expense {
+  flex: 1;
+  border: 1px dotted black;
+}
+.income p {
+  font-size: 25px;
+  color: rgb(100, 149, 25);
+  /* background-color: greenyellow; */
+  flex: 1;
+}
+.expense p {
+  font-size: 25px;
+  color: rgb(200, 31, 31);
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid rgb(204, 204, 204);
+  padding: 10px;
+  flex: 3;
+}
+.trash {
+  /* background-color: crimson; */
+  color: rgb(143, 15, 15);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.info-money {
+  display: flex;
+  align-items: center;
+}
+.transaction p {
+  margin: 0px;
+  font-weight: bold;
+}
+.text input,
+.amount input {
+  border-radius: 0px;
+}
+.btn {
+  border-radius: 0px;
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: 90%;
+  }
+}

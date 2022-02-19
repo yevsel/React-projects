@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(226, 188, 151);
+}
+.space {
+  width: 60%;
+  margin: auto;
+  /* background-color: peru; */
+  margin-bottom: 100px;
+}
+.data {
+  width: 100px;
+  border: none;
+}
